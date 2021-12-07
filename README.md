@@ -67,6 +67,15 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 ## Prueba Cuponatic
 
+1. Para iniciar debe instalar todas las dependencias con:
+   --composer install
+   y luego
+   --composer update
+
+2. Para levantar el proyecto, debe correr una base de datos mysql y asegurarse de tener un ambiente de prueba.
+
+ejecutar el comando --php artisan serve, para levantar proyecto.
+
 Para listar los productos: http://127.0.0.1:8000/api/list
 
 Para listar los productos por orden: http://127.0.0.1:8000/api/list/ y luego escribir asc ó desc
